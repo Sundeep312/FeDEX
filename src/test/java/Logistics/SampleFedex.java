@@ -31,6 +31,9 @@ public class SampleFedex {
 		driver.findElement(By.xpath("//div[@id='al-addressResults']//div[5]//input[1]")).click();
 		driver.findElement(By.id("al-useSelectedAddress")).click();
 		
+		System.out.println("new to GIT");
+		
+		
 		
 
 	}
