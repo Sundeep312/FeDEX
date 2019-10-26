@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FedEX">
+  <test name="Home page Test">
+   
+    <classes>
+      <class name="Logistics.Fedex1"/>
+      <class name="Logistics.Fedex2"/>
+      
+    </classes> 
+  </test>
+   
+<Test name="Login page Test">
+
+<classes>
+<class name="Logistics.Fedex3"/>
+
+</classes>
+</Test>
+
+</suite> 

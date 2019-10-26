@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FedEX">
+<Listeners>
+<Listener class-name="Logistics.Listeners"/>
+
+</Listeners>
+  <test name="Regression Test">
+   
+    <classes>
+      <class name="Logistics.Fedex1"/>
+      <class name="Logistics.Fedex2"/>
+      <class name="Logistics.Fedex3"/>
+      
+    </classes> 
+  </test>
+
+</suite> 

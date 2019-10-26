@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FedEX]">
+  <test name="Regression Test(failed)">
+    <classes>
+      <class name="Logistics.Fedex1">
+        <methods>
+          <include name="Navigation"/>
+          <include name="page1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Logistics.Fedex1 -->
+      <class name="Logistics.Fedex3">
+        <methods>
+          <include name="getScreenShot"/>
+          <include name="navigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Logistics.Fedex3 -->
+      <class name="Logistics.Fedex2">
+        <methods>
+          <include name="navigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Logistics.Fedex2 -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [FedEX] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-23T12:05:04Z" name="Default suite" finished-at="2019-10-23T12:05:16Z" duration-ms="11889">
+    <groups>
+    </groups>
+    <test started-at="2019-10-23T12:05:04Z" name="Default test" finished-at="2019-10-23T12:05:16Z" duration-ms="11889">
+      <class name="Logistics.Fedex2">
+        <test-method is-config="true" signature="navigation()[pri:0, instance:Logistics.Fedex2@6591f517]" started-at="2019-10-23T13:05:04Z" name="navigation" finished-at="2019-10-23T13:05:08Z" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method signature="ValidateClearlink()[pri:0, instance:Logistics.Fedex2@6591f517]" started-at="2019-10-23T13:05:08Z" name="ValidateClearlink" finished-at="2019-10-23T13:05:08Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateClearlink -->
+        <test-method signature="page2()[pri:0, instance:Logistics.Fedex2@6591f517]" started-at="2019-10-23T13:05:08Z" name="page2" finished-at="2019-10-23T13:05:16Z" duration-ms="7766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Logistics.Fedex2@6591f517]" started-at="2019-10-23T13:05:16Z" name="tearDown" finished-at="2019-10-23T13:05:16Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Logistics.Fedex2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
