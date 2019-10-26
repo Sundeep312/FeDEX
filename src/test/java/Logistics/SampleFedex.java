@@ -32,6 +32,7 @@ public class SampleFedex {
 		driver.findElement(By.id("al-useSelectedAddress")).click();
 		
 		System.out.println("new to GIT");
+		System.out.println("change to GIT");
 		
 		
 		
